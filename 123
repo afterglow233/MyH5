@@ -3,9 +3,112 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <style>
+        #container div{
+            width: 620px;
+            height: 877px;
+            position: absolute;
+        }
+
+        #container{
+            background-image:url("dressup/body.png") ;
+            width: 620px;
+            height: 877px;
+            position:absolute;
+            top:60px;
+        }
+        #menu div{
+            float:left;
+            border: 1px solid black;
+            width:80px;
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
-<h1>哇呀呀呀</h1>
-<p>hhhhhhhhh</p>
+<div id="menu">
+    <div id="s1" onclick="s1()">黄卫衣</div>
+    <div id="s2" onclick="s2()">衬衫</div>
+    <div id="s3" onclick="s3()">蓝半袖</div>
+    <div id="s4" onclick="s4()">白T恤</div>
+    <div id="s5" onclick="s5()">工地背心</div>
+    <div id="s6" onclick="s6()">假两件</div>
+    <div id="x2" onclick="x2()">黑长裤</div>
+    <div id="x3" onclick="x3()">绿短裤</div>
+    <div id="x4" onclick="x4()">黑短裤</div>
+    <div id="x5" onclick="x5()">牛仔长裤</div>
+    <div id="j1" onclick="j1()">绿布鞋</div>
+    <div id="j2" onclick="j2()">皮鞋</div>
+    <div id="j3" onclick="j3()">运动鞋</div>
+    <div id="j4" onclick="j4()">方口鞋</div>
+    <div id="t1" onclick="t1()">棕色短发</div>
+    <div id="t2" onclick="t2()">黑色短发</div>]
+    <div id="t3" onclick="t3()">黑色短发</div>
+    <div id="t4" onclick="t4()">黑色长发</div>
+
+</div>
+<div id="container">
+    <div id="shoes"></div>
+    <div id="lower"></div>
+    <div id="upper"></div>
+    <div id="hair"></div>
+
+</div>>
 </body>
+<script>
+    function s1() {
+        document.getElementById("upper").style.backgroundImage="url('dressup/s1.png')";
+    }
+    function s2() {
+        document.getElementById("upper").style.backgroundImage="url('dressup/s2.png')";
+    }
+    function s3() {
+        document.getElementById("upper").style.backgroundImage="url('dressup/s3.png')";
+    }
+    function s4() {
+        document.getElementById("upper").style.backgroundImage="url('dressup/s4.png')";
+    }
+    function s5() {
+        document.getElementById("upper").style.backgroundImage="url('dressup/s5.png')";
+    }
+    function s6() {
+        document.getElementById("upper").style.backgroundImage="url('dressup/s6.png')";
+    }
+    function x2() {
+        document.getElementById("lower").style.backgroundImage="url('dressup/x2.png')";
+    }
+    function x3() {
+        document.getElementById("lower").style.backgroundImage="url('dressup/x3.png')";
+    }
+    function x4() {
+        document.getElementById("lower").style.backgroundImage="url('dressup/x4.png')";
+    }
+    function x5() {
+        document.getElementById("lower").style.backgroundImage="url('dressup/x5.png')";
+    }
+    function j1() {
+        document.getElementById("shoes").style.backgroundImage="url('dressup/j1.png')";
+    }
+    function j2() {
+        document.getElementById("shoes").style.backgroundImage="url('dressup/j2.png')";
+    }
+    function j3() {
+        document.getElementById("shoes").style.backgroundImage="url('dressup/j3.png')";
+    }
+    function j4() {
+        document.getElementById("shoes").style.backgroundImage="url('dressup/j4.png')";
+    }
+    function t1() {
+        document.getElementById("hair").style.backgroundImage="url('dressup/t1.png')";
+    }
+    function t2() {
+        document.getElementById("hair").style.backgroundImage="url('dressup/t2.png')";
+    }
+    function t3() {
+        document.getElementById("hair").style.backgroundImage="url('dressup/t3.png')";
+    }
+    function t4() {
+        document.getElementById("hair").style.backgroundImage="url('dressup/t4.png')";
+    }
+</script>>
 </html>
